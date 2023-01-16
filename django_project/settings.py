@@ -107,6 +107,8 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTH_USER_MODEL = "accounts.CustomUser"  # new
+LOGIN_REDIRECT_URL = "home"  # new
+LOGOUT_REDIRECT_URL = "home"  # new
 
 
 # Internationalization
